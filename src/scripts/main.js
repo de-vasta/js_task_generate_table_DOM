@@ -354,7 +354,7 @@ const people = [
   },
 ];
 
-const tbody = document.querySelector('tbody');
+const tbody = document.querySelector('.dashboard > tbody');
 
 people.forEach((person) => {
   tbody.insertAdjacentHTML(
